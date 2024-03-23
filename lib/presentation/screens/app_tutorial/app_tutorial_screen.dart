@@ -51,9 +51,9 @@ class _AppTutorialScreenState extends State<AppTutorialScreen> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
-    super.dispose();
     pageviewController.dispose();
+    super.dispose();
+
   }
 
   @override
